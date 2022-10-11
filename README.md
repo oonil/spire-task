@@ -41,3 +41,10 @@ Create a todo rest api. Optional tasks can be done only after basic requriements
 5. Availble todo npm packages can not be used.
 
 ---
+
+1.to run docker image use docker-build to build docker image
+docker run -p 3000:3000 -it oonil/todo-web-app
+
+2.to build image
+
+docker build . -t oonil/todo-web-app
